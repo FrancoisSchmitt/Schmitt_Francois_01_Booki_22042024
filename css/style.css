@@ -424,6 +424,7 @@ li {
 
     .populaires-cards {
         flex-direction: row;
+        gap: 20px;
     }
 
     .populaires-cards .card-title {
