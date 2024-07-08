@@ -335,12 +335,13 @@ li {
 }
 
 .populaires-cards img {
-    width: 6.97em;
     height: 9.125em;
     border-top-left-radius: 1.25em;
     border-bottom-left-radius: 1.25em;
     padding: 0.4em;
-    width: 91px;
+    max-width: 91px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .card-content {
@@ -433,6 +434,10 @@ li {
 
     .populaires-cards .card-subtitle {
         font-size: 0.8125em;
+    }
+
+    .card {
+        flex: 1;
     }
 
     .populaires-cards img {
