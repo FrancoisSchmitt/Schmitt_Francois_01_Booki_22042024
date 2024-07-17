@@ -69,6 +69,10 @@ li {
     list-style-type: none;
 }
 
+form {
+    display: flex;
+}
+
 /* HEADER */
 .header {
     height: 79px;
